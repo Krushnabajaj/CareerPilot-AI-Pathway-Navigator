@@ -1,0 +1,48 @@
+.home-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    margin: 20px 0;
+}
+
+.image-section {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.home-image {
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: cover;
+}
+
+.text-section {
+    flex: 1;
+    padding: 20px;
+}
+
+.home-title {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+}
+
+.home-text {
+    font-size: 1.2em;
+    line-height: 1.6;
+}
+
+.reverse {
+    flex-direction: row-reverse;
+}
